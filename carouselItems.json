@@ -1,0 +1,77 @@
+{
+  "version": "1.1",
+  "identifier": "articleBlob",
+  "language": "en",
+  "title": "Upcoming Trips",
+  "subtitle": "A list of my upcoming trips",
+  "textFormat": "none",
+  "tripCards": [
+    {
+        "id": "1-001",
+        "type": "tripCard",
+        "category": "active",
+        "tripStatus": "Awaiting Approval",
+        "travelerName": "Nate",
+        "tripTitle": "My Paris Trip",
+        "destination": "paris",
+        "travelDate": "Jan 13, 2022 - Jan 20, 2022",
+        "notes": "Lorem ipsum dolor sit amet",
+        "link": "http://www.egencia.com",
+        "image": "https://source.unsplash.com/1600x900/?paris"
+    },
+    {
+      "id": "1-002",
+      "type": "tripCard",
+      "category": "active",
+      "tripStatus": "Awaiting Approval",
+      "travelerName": "Nate",
+      "tripTitle": "Chicago",
+      "destination": "chicago",
+      "travelDate": "Jan 13, 2022 - Jan 20, 2022",
+      "notes": "Lorem ipsum dolor sit amet",
+      "link": "http://www.egencia.com",
+      "image": "https://source.unsplash.com/1600x900/?paris"
+  },
+  {
+    "id": "1-003",
+    "type": "tripCard",
+    "category": "active",
+    "tripStatus": "Awaiting Approval",
+    "travelerName": "Nate",
+    "tripTitle": "Seattle",
+    "destination": "seattle",
+    "travelDate": "Jan 13, 2022 - Jan 20, 2022",
+    "notes": "Lorem ipsum dolor sit amet",
+    "link": "http://www.egencia.com",
+    "image": "https://source.unsplash.com/1600x900/?paris"
+},
+{
+  "id": "1-004",
+  "type": "tripCard",
+  "category": "active",
+  "tripStatus": "Awaiting Approval",
+  "travelerName": "Nate",
+  "tripTitle": "Austin",
+  "destination": "austin",
+  "travelDate": "Jan 13, 2022 - Jan 20, 2022",
+  "notes": "Lorem ipsum dolor sit amet",
+  "link": "http://www.egencia.com",
+  "image": "https://source.unsplash.com/1600x900/?paris"
+},
+{
+  "id": "1-005",
+  "type": "tripCard",
+  "category": "active",
+  "tripStatus": "Awaiting Approval",
+  "travelerName": "Nate",
+  "tripTitle": "NYC Conference Trip",
+  "destination": "newyork",
+  "travelDate": "Jan 13, 2022 - Jan 20, 2022",
+  "notes": "Lorem ipsum dolor sit amet",
+  "link": "http://www.egencia.com",
+  "image": "https://source.unsplash.com/1600x900/?paris"
+}
+  ]
+
+
+    }
