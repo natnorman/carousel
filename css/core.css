@@ -213,6 +213,10 @@ html {
         width: calc(((375px) - (40px + 8px)) * 1.0);
     }
 
+    .small.single div.card.tripHero {
+        width: calc(((375px)));
+    }
+
     .medium div.card.tripHero {
         width: calc(((720px) - (40px + 8px)) * .5);
     }

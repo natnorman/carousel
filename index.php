@@ -32,6 +32,28 @@ $Count = 0;
 
 
 // echo "<h3>" . $tripsData["title"] . "</h3>";
+echo "<h3>Small - Single item</h3>";
+
+// echo "<p>" . $tripsData["subtitle"] . "</p>";
+
+echo "<div class='carouselOuter small single'>";
+echo "<div class='row results'>";
+
+	// echo "<a class='linkWrapper' href='" . $component["link"] . "' target='new'>";
+	echo "<div class='card tripHero' style='background-image: url(https://source.unsplash.com/800x600/?" . $tripsData["tripCards"][0]["destination"] . ")'>";
+	echo "<div class='tripInfo'><h2>" . $tripsData["tripCards"][0]["tripTitle"] . "</h2>";
+	echo "<h4>" . $tripsData["tripCards"][0]["travelDate"] . "</h4></div>";
+	echo "</div>";
+	// echo "</a>";
+echo "</div>";
+echo "</div>";
+
+
+
+
+
+
+// echo "<h3>" . $tripsData["title"] . "</h3>";
 echo "<h3>Small - 1up</h3>";
 
 // echo "<p>" . $tripsData["subtitle"] . "</p>";
