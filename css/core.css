@@ -5,6 +5,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
 @import url('https://fonts.googleapis.com/icon?family=Material+Icons');
 
+/* Set default aspect ratio for cards */
+:root {
+    --aspectRatio: calc(2 / 3);
+}
+
 html {
     font-size: 62.5%;
     box-sizing: border-box;
@@ -196,7 +201,7 @@ html {
         padding: 24px;
         margin-right: 8px;
         overflow: hidden;
-        border-radius: 8px;
+        border-radius: 2px;
         background-color: #fff;
         display: flex;
         /* flex-direction: row ; */
@@ -211,6 +216,13 @@ html {
 
     .small div.card.tripHero {
         width: calc(((375px) - (40px + 8px)) * 1.0);
+        height: calc((((375px) - (40px + 8px)) * 1.0) * (var(--aspectRatio)));
+    }
+
+    .slim div.card.tripHero {
+        height: 84px;
+        background-color: white;
+        background-image: none;
     }
 
     .small.single div.card.tripHero {
@@ -219,15 +231,15 @@ html {
 
     .medium div.card.tripHero {
         width: calc(((720px) - (40px + 8px)) * .5);
+        height: calc((((720px) - (40px + 8px)) * .5) * (var(--aspectRatio)));
     }
 
     .large div.card.tripHero {
         width: calc(((1280px) - (40px + 8px)) * .33);
+        height: calc((((1280px) - (40px + 8px)) * .33) * (var(--aspectRatio)));
     }
 
-    .slim div.card.tripHero {
-        height: 100px;
-    }
+
 
 
     div.card.tripHero:last-child {
@@ -243,6 +255,11 @@ html {
     .tripHero h2, .tripHero h4 {
         color: #fff;
         text-shadow: 1px 1px 1px #000;
+    }
+
+    .slim .tripHero h2, .slim .tripHero h4 {
+        color: #000;
+        text-shadow: none;
     }
 
 

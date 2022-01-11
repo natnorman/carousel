@@ -54,7 +54,7 @@ echo "</div>";
 
 
 // echo "<h3>" . $tripsData["title"] . "</h3>";
-echo "<h3>Small - 1up</h3>";
+echo "<h3>Small Container - 1up</h3>";
 
 // echo "<p>" . $tripsData["subtitle"] . "</p>";
 
@@ -74,7 +74,7 @@ echo "</div>";
 
 
 // echo "<h3>" . $tripsData["title"] . "</h3>";
-echo "<h3>Small (Slim) - 1up</h3>";
+echo "<h3>Small Container (Slim) - 1up</h3>";
 
 // echo "<p>" . $tripsData["subtitle"] . "</p>";
 
@@ -83,9 +83,9 @@ echo "<div class='row results'>";
 
 foreach($tripsData["tripCards"] as $component){
 	// echo "<a class='linkWrapper' href='" . $component["link"] . "' target='new'>";
-	echo "<div class='card tripHero' style='background-image: url(https://source.unsplash.com/800x600/?" . $component["destination"] . ")'>";
-	echo "<div class='tripInfo'><h2>" . $component["tripTitle"] . "</h2>";
-	echo "<h4>" . $component["travelDate"] . "</h4></div>";
+	echo "<div class='card tripHero'" . $component["destination"] . ")'>";
+	echo "<div class='tripInfo'><h3>" . $component["tripTitle"] . "</h3>";
+	echo "<p>" . $component["travelDate"] . "</p></div>";
 	echo "</div>";
 	// echo "</a>";
 	}
@@ -94,7 +94,7 @@ echo "</div>";
 
 
 // echo "<h3>" . $tripsData["title"] . "</h3>";
-echo "<h3>Medium - 2up</h3>";
+echo "<h3>Medium Container - 2up</h3>";
 
 // echo "<p>" . $tripsData["subtitle"] . "</p>";
 
@@ -115,7 +115,7 @@ echo "</div>";
 
 
 // echo "<h3>" . $tripsData["title"] . "</h3>";
-echo "<h3>Large - 3up</h3>";
+echo "<h3>Large Container - 3up</h3>";
 
 // echo "<p>" . $tripsData["subtitle"] . "</p>";
 
